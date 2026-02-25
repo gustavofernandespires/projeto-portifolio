@@ -272,9 +272,18 @@ footer a:hover {
   width: 80%;
 }
 
+  #projeto-container .projeto a {
+    display: block;
+    width: 20%;
+  }
+
   #projeto-container .foto {
     width: 20%;
     aspect-ratio: 1/1;
     max-height: 200px;
+  }
+
+  #projeto-container .projeto a .foto {
+    width: 100%;
   }
 }
